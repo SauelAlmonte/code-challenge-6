@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+
+/**
+    Custom CSS.....
+*/
+.my-bkg {
+    @apply bg-black
+}
+
+@tailwind utilities;
