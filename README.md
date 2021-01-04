@@ -39,4 +39,5 @@
    * yarn run build
 
 4. Once commands, files etc. were completed I began working on building earls.ca website as well as the accessibility icon
+5. Not able to deploy to Vercel, searching online for reason. Error received: Error: No Output Directory named "public" found after the Build completed. You can configure the Output Directory in your Project Settings. Learn More: https://vercel.link/missing-public-directory
 
