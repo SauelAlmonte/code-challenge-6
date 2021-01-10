@@ -11,8 +11,32 @@
     <title>Code Challeneg 6</title>
 </head>
 
-<body class="bg-white bg-center bg-no-repeat bg-cover lg:bg-fixed" style="background-image: url('img/homepage-onthego-desktop.jpg__2000x0_q80_crop-smart_subsampling-2_upscale.jpg')">
+<body>
 
+<!--Nav-->
+
+<nav>
+    <div class="flex items-center justify-between px-8 py-6 mx-auto bg-white ">
+    <a class="text-2xl font-bold text-indigo-900 lg:text-4xl" href="#">
+        Earls
+    </a>
+    <div class="block lg:hidden">
+        <button class="flex items-center px-3 py-2 text-indigo-900 border border-gray-600 rounded appearance-none hover:text-gray-800 hover:border-teal-500 focus:outline-none">
+        <svg class="w-3 h-3 fill-current" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+            <title>Menu</title>
+            <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+        </svg>
+        </button>
+    </div>
+    <div class="hidden lg:block">
+        <ul class="inline-flex text-indigo-900 text-md">
+        <li><a class="px-4 text-indigo-900 hover:text-blue-700" href="/">MENU</a></li>
+        <li><a class="px-4 hover:text-blue-700" href="#">LOCATIONS</a></li>
+        <li><a class="px-4 hover:text-blue-700" href="#">GIFT CARDS</a></li>
+        </ul>
+    </div>
+    </div>
+</nav>
     
 <!--sliding menu-->
 <nav class="fixed w-64 h-screen p-8 transform -translate-x-64 bg-white">
@@ -27,29 +51,46 @@
 </nav>
 
 <!-- main body -->
-<div>
+<div class="bg-local bg-center bg-no-repeat lg:bg-local" style="background-image: url('img/homepage-onthego-desktop.jpg__2000x0_q80_crop-smart_subsampling-2_upscale.jpg')">
     <p class="inline px-4 ml-8 text-xl font-black text-black uppercase bg-yellow-200 cursor-pointer" id="book-table"> MENU</p>
     <p class="p-24 font-serif text-white text-7xl ml-28">
         ORDER FOR <br> PICKUP + <br> GET 10% OFF
     </p>
-    <a href="#" class="p-24 font-serif text-base text-white ml-28">Order Now</a>
-       
+    <button>
+        <a href="#" class="font-serif text-base text-white">Order Now</a>
+    </button>  
 </div>
 
-<div class="w-full pt-24 pb-48 bg-white pl-36">
-    
-    <p class="font-serif text-sm font-bold text-blue-900">
-        NOW AT: EARLS BURLINGTON 
-        <br> 
-        New + Notable
-    </p>
-    
-</div>
+<!--Section 2-->
+
+<section  class="py-20 bg-white">
+    <div class="flex flex-wrap items-center mb-20">
+        
+        <div class="w-full p-16 md:w-1/2">
+            <p class="mb-2 text-sm text-indigo-900">NOW AT: EARLS BURLINGTON</p>
+            <h4 class="mb-3 text-6xl font-bold text-indigo-900">New + Notable</h4>
+        </div>
+        
+        <div class="w-full p-16 md:w-1/2">
+            <p class="pr-16 text-indigo-900">
+                Each location has a menu that's curated just for them. 
+                See what's new on the menu at your Earls.
+            </p> 
+        </div>
+    </div>
+</section>
+
+<!--Section 3-->
+
+
+
+<!--Section 4-->
+
 
 <!-- book a table button-->
-<div class="fixed bottom-0 right-0 flex items-center justify-center p-6 m-5 bg-gray-500 rounded-full cursor-pointer h-44 w-44 hover:bg-gray-700">
+<div class="fixed bottom-0 right-0 flex items-center justify-center p-6 m-5 transition duration-300 ease-out transform bg-yellow-900 rounded-full cursor-pointer h-36 w-36 hover:-translate-y-1 hover:scale-105">
     
-    <p class="text-xl text-white">Book a Table <i class="text-white fas fa-arrow-right"></i></p>
+    <p class="text-base text-white font-subpixel-antialiased">Book a Table <i class="text-white fas fa-arrow-right"></i></p>
     
 </div>
 
